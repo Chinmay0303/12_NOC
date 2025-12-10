@@ -51,7 +51,8 @@ function drawCircle(){
 //     drawCircle();
 // }
 
-i = 0
+let i = 0;
+// Continuously animates the canvas by drawing circles at intervals using requestAnimationFrame.
 function animate(){
     if((i++)%5 === 0)
         drawCircle();
